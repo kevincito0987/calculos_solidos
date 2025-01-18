@@ -54,8 +54,8 @@ El proyecto incluye fórmulas matemáticas para sólidos regulares (esferas, cil
 
 ## Uso
 
-```bash
-calculos -s esfera -r 5
+1. ```bash
+2. calculos -s esfera -r 5
 Este comando calculará el volumen de una esfera con radio 5 unidades y mostrará el resultado por pantalla.
 
 ### Opciones disponibles:
