@@ -82,4 +82,4 @@ Las contribuciones son bienvenidas. Por favor, sigue los pasos descritos en el a
 
 ## Licencia
 
-Este proyecto no tiene licencias en especifico, solo es un trabajo del SENA.
+Este proyecto no tiene licencias en especifico, solo es un trabajo del SENA un algoritmo de consola.
