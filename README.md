@@ -54,8 +54,8 @@ El proyecto incluye fórmulas matemáticas para sólidos regulares (esferas, cil
 
 ## Uso
 
-1. ```bash
-2. calculos -s esfera -r 5
+* ```bash
+ calculos -s esfera -r 5
 Este comando calculará el volumen de una esfera con radio 5 unidades y mostrará el resultado por pantalla.
 
 ### Opciones disponibles:
@@ -65,10 +65,10 @@ Este comando calculará el volumen de una esfera con radio 5 unidades y mostrar�
 
 ## Ejemplos
 
-1.  **Calcular el volumen de un cilindro:**
+1. Calcular el volumen de un cilindro:**
   ```bash
     calculos -s cilindro -r 3 -h 10
-2.  **Calcular el área superficial de un cubo:**
+2. Calcular el área superficial de un cubo:**
     ```bash
     calculos -s cubo -l 4
 
