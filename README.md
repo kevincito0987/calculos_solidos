@@ -65,10 +65,10 @@ Este comando calculará el volumen de una esfera con radio 5 unidades y mostrar�
 
 ## Ejemplos
 
-  - **Calcular el volumen de un cilindro:**
+1.  **Calcular el volumen de un cilindro:**
   ```bash
     calculos -s cilindro -r 3 -h 10
-  - **Calcular el área superficial de un cubo:**
+2.  **Calcular el área superficial de un cubo:**
     ```bash
     calculos -s cubo -l 4
 
