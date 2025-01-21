@@ -1,5 +1,6 @@
 [
     {
+        "id" : 1,
         "nombre": "Nube",
         "descripcion": "Masa de gotas de agua suspendidas en el aire",
         "calculos": {
@@ -89,6 +90,7 @@
         }
     },
     {
+        "id" : 2,
         "nombre": "Esponja de mar",
         "descripcion": "Organismo marino poroso",
         "calculos": {
@@ -107,6 +109,7 @@
           }
     },
     {
+        "id" : 3,
         "nombre": "Montaña",
         "descripcion": "Formación geológica de gran tamaño",
         "calculos": {

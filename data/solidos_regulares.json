@@ -1,5 +1,6 @@
  [
       {
+        "id" : 1,
         "nombre": "Cubo",
         "formula_volumen": "lado^3",
         "formula_area": "6 * lado^2",
@@ -11,6 +12,7 @@
         }
       },
       {
+        "id" : 2,
         "nombre": "Esfera",
         "formula_volumen": "(4/3) * Math.PI * radio^3",
         "formula_area": "4 * Math.PI * radio^2",
@@ -22,6 +24,7 @@
         }
       },
       {
+        "id" : 3,
         "nombre": "Cilindro",
         "formula_volumen": "Math.PI * radio^2 * altura",
         "formula_area": "2 * Math.PI * radio * (radio + altura)",
@@ -34,6 +37,7 @@
         }
       },
       {
+        "id" : 4,
         "nombre": "Prisma rectangular",
         "formula_volumen": "largo * ancho * altura",
         "formula_area": "2 * (largo * ancho + largo * altura + ancho * altura)",
@@ -47,6 +51,7 @@
         }
       },
       {
+        "id" : 5,
         "nombre": "Cono",
         "formula_volumen": "(1/3) * Math.PI * radio^2 * altura",
         "formula_area": "Math.PI * radio * (radio + Math.sqrt(altura^2 + radio^2))",
@@ -59,6 +64,7 @@
         }
       },
       {
+        "id" : 56,
         "nombre": "Pirámide cuadrangular regular",
         "formula_volumen": "(1/3) * lado^2 * altura",
         "formula_area": "lado^2 + 2 * lado * sqrt((altura^2 + (lado/2)^2))",
@@ -71,6 +77,7 @@
         }
       },
       {
+        "id" : 7,
         "nombre": "Octaedro regular",
         "formula_volumen": "(1/3) * 2 * sqrt(2) * lado^3",
         "formula_area": "2 * sqrt(3) * lado^2",
