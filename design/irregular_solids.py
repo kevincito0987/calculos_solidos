@@ -45,3 +45,23 @@ def designCalculatesOfIrregularSolids():
     )
     opc = int(input())
     return opc
+
+def designIrregularSolidCloud():
+    print(
+        """
+            ===========================================
+                    Forma de la Nube a Calcular
+            ===========================================
+            ¿Qué forma vas a calcular?
+            1. Elipsoide
+            2. Esfera
+            3. Cilindro
+            4. Esfera
+            5. Cilindro
+            6. Regresar al Menú Principal
+            ===========================================
+            Selecciona una opción (1-4):
+          """
+    )
+    opc = int(input())
+    return opc
