@@ -64,7 +64,7 @@
         }
       },
       {
-        "id" : 56,
+        "id" : 6,
         "nombre": "Pirámide cuadrangular regular",
         "formula_volumen": "(1/3) * lado^2 * altura",
         "formula_area": "lado^2 + 2 * lado * sqrt((altura^2 + (lado/2)^2))",

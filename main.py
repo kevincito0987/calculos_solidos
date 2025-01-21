@@ -1,3 +1,6 @@
+from design.irregular_solids import tableIrregularSolids, designIrregularSolidThingToDo, designCalculatesOfIrregularSolids
+from design.regular_solids import tableRegularSolids, designRegularSolidThingToDo, designCalculatesOfRegularSolids
+
 while True:
     try:
         while True:
@@ -15,8 +18,49 @@ while True:
             )
             opc = int(input())
             match opc:
-                case 1 : print("caso 1")
-                case 2: print("caso 2")
+                case 1:
+                    print(
+                        "Por ahora tengo estos sólidos irregulares en mi base de datos."
+                    )
+                    tableIrregularSolids()
+                    match designIrregularSolidThingToDo():
+                        case 1 : 
+                            match designCalculatesOfIrregularSolids():
+                                case 1 :print("Calculo 1")
+                        case 2 : 
+                            match designCalculatesOfIrregularSolids():
+                                case 1 :print("Calculo 1")
+                        case 3 : 
+                            match designCalculatesOfIrregularSolids():
+                                case 1 :print("Calculo 1")
+                case 2:
+                    print(
+                        "Por ahora tengo estos sólidos regulares en mi base de datos."
+                    )
+                    tableRegularSolids()
+                    match designRegularSolidThingToDo():
+                        case 1 : 
+                            match designCalculatesOfRegularSolids():
+                                case 1 : print("Calculo 1")
+                        case 2 :
+                            match designCalculatesOfRegularSolids():
+                                case 1 : print("Calculo 1")
+                        case 3 : 
+                            match designCalculatesOfRegularSolids():
+                                case 1 : print("Calculo 1")
+                        case 4 : 
+                            match designCalculatesOfRegularSolids():
+                                case 1 : print("Calculo 1")
+                        case 5 :
+                            match designCalculatesOfRegularSolids():
+                                case 1 : print("Calculo 1")
+                        case 6 : 
+                            match designCalculatesOfRegularSolids():
+                                case 1 : print("Calculo 1")
+                        case 7 :
+                            match designCalculatesOfRegularSolids():
+                                case 1 : print("Calculo 1")
+                        case 8 : break
                 case 3:
                     print("Hasta la próxima :) ")
                     break

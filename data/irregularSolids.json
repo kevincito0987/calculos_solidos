@@ -94,6 +94,7 @@
         "nombre": "Esponja de mar",
         "descripcion": "Organismo marino poroso",
         "calculos": {
+
             "area": {
               "valor": "4 * Math.PI * 100 * 1^2 // Asumiendo 100 esferas de radio 1 cm"
             },
@@ -106,7 +107,7 @@
             "densidad": {
               "valor": "30 / 200 // Suponiendo masa de 30 gramos y volumen de 200 cm³"
             }
-          }
+        }
     },
     {
         "id" : 3,
@@ -119,7 +120,6 @@
             "metodo": "Modelo digital de elevación",
             "formula_aproximada": "Volumen aproximado a un poliedro irregular",
             "valor": "(1/3) * Math.PI * radio^2 * altura"
-          }
           },
           "area": {
             "unidades": "m²",
@@ -135,5 +135,6 @@
             "formula": "masa / volumen",
             "valor": "masa / (1/3) * Math.PI * radio^2 * altura" 
           }
+        }
         }
 ]
