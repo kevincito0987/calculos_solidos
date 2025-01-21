@@ -35,10 +35,9 @@ def designCalculatesOfIrregularSolids():
             ==============================================
             ¿Qué solido irregular deseas calcular?
             1. Calcular Volumen
-            2. Calculos Área
-            3. Calculos Masa
+            2. Calculos Masa
             3. Calculos Densidad
-            5. Regresar al Menú Principal
+            4. Regresar al Menú Principal
             ===========================================
             Selecciona una opción (1-8):
           """
