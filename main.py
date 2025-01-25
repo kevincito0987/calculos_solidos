@@ -1,6 +1,7 @@
 from design.irregular_solids import tableIrregularSolids, designIrregularSolidThingToDo, designCalculatesOfIrregularSolids, designIrregularSolidCloud, designCalculatesOfIrregularSolidsMountainAndSeaStar
 from design.regular_solids import tableRegularSolids, designRegularSolidThingToDo, designCalculatesOfRegularSolids
-from logic.irregular_solids import calculateVolumeEllipsoidCloud, calculateVolumeSphereCloud, calculateVolumeCylinderCloud, calculateVolumePrismCloud, calculateVolumeLenticularCloud, calculateMassEllipsoidCloud, calculateMassSphereCloud, calculateMassCylinderCloud, calculateMassPrismCloud, calculateMassLenticularCloud, calculateDensytyEllipsoidCloud, calculateDensitySphereCloud, calculateDensityCylinderCloud, calculateDensityPrismCloud, calculateDensityLenticularCloud, calculateAreaOfMountain, calculateDensityOfMountain, calculateVolumeOfMountain
+from logic.irregular_solids import calculateVolumeEllipsoidCloud, calculateVolumeSphereCloud, calculateVolumeCylinderCloud, calculateVolumePrismCloud, calculateVolumeLenticularCloud, calculateMassEllipsoidCloud, calculateMassSphereCloud, calculateMassCylinderCloud, calculateMassPrismCloud, calculateMassLenticularCloud, calculateDensytyEllipsoidCloud, calculateDensitySphereCloud, calculateDensityCylinderCloud, calculateDensityPrismCloud, calculateDensityLenticularCloud, calculateAreaOfMountain, calculateDensityOfMountain, calculateVolumeOfMountain, calculateDensityOfSeaStar, calculateAreaOfSeaStar, calculateVolumeOfSeaStar
+from logic.regular_solids import calculateVolumeCube, calculateMassCube, calculateAreaCube, calculateDensityCube, calculatDensitySphere, calculateAreaSphere, calculateMassSphere, calculateVolumeSphere, calculateAreaCylinder, calculateDensityCylinder, calculateMassCylinder, calculateVolumeCylinder, calculateAreaRectangularPrism, calculateDensityRectangularPrism, calculateMassRectangularPrism, calculateVolumeRectangularPrism, calculateAreaCone, calculateDensityCone, calculateMassCone, calculateVolumeCone, calculateAreaRegularQuadrangularPyramid, calculateDensityRegularQuadrangularPyramid, calculateMassRegularQuadrangularPyramid, calculateVolumeRegularQuadrangularPyramid, calculateAreaRegularOctahedron, calculateDensityRegularOctahedron,calculateMassRegularOctahedron, calculateVolumeRegularOctahedron
 
 while True:
     try:
@@ -67,7 +68,14 @@ while True:
 
                             case 2 : 
                                 match designCalculatesOfIrregularSolidsMountainAndSeaStar():
-                                    case 1 :print("Calculo 1")
+                                    case 1 : calculateVolumeOfSeaStar()
+                                    case 2 : calculateAreaOfSeaStar()
+                                    case 3 : calculateDensityOfSeaStar()
+                                    case 4 : break
+                                    case _:
+                                            print(
+                                                        "La opcion ingresada no esta dentro de las opciones anteriores."
+                                                    )
                             case 3 : 
                                 match designCalculatesOfIrregularSolidsMountainAndSeaStar():
                                     case 1 : calculateVolumeOfMountain()
@@ -99,25 +107,80 @@ while True:
                         match designRegularSolidThingToDo():
                             case 1 : 
                                 match designCalculatesOfRegularSolids():
-                                    case 1 : print("Calculo 1")
+                                    case 1 : calculateVolumeCube()
+                                    case 2 : calculateAreaCube()
+                                    case 3 : calculateMassCube()
+                                    case 4 : calculateDensityCube()
+                                    case 4 : break
+                                    case _:
+                                        print(
+                                            "La opcion ingresada no esta dentro de las opciones anteriores."
+                                        )
                             case 2 :
                                 match designCalculatesOfRegularSolids():
-                                    case 1 : print("Calculo 1")
+                                    case 1 : calculateVolumeSphere()
+                                    case 2 : calculateAreaSphere()
+                                    case 3 : calculateMassSphere()
+                                    case 4 : calculatDensitySphere()
+                                    case 4 : break
+                                    case _:
+                                        print(
+                                            "La opcion ingresada no esta dentro de las opciones anteriores."
+                                        )
                             case 3 : 
                                 match designCalculatesOfRegularSolids():
-                                    case 1 : print("Calculo 1")
+                                    case 1 : calculateVolumeCylinder()
+                                    case 2 : calculateAreaCylinder()
+                                    case 3 : calculateMassCylinder()
+                                    case 4 : calculateDensityCylinder()
+                                    case 4 : break
+                                    case _:
+                                        print(
+                                            "La opcion ingresada no esta dentro de las opciones anteriores."
+                                        )
                             case 4 : 
                                 match designCalculatesOfRegularSolids():
-                                    case 1 : print("Calculo 1")
+                                    case 1 : calculateVolumeRectangularPrism()
+                                    case 2 : calculateAreaRectangularPrism()
+                                    case 3 : calculateMassRectangularPrism()
+                                    case 4 : calculateDensityRectangularPrism()
+                                    case 4 : break
+                                    case _:
+                                        print(
+                                            "La opcion ingresada no esta dentro de las opciones anteriores."
+                                        )
                             case 5 :
                                 match designCalculatesOfRegularSolids():
-                                    case 1 : print("Calculo 1")
+                                    case 1 : calculateVolumeCone()
+                                    case 2 : calculateAreaCone()
+                                    case 3 : calculateMassCone()
+                                    case 4 : calculateDensityCube()
+                                    case 4 : break
+                                    case _:
+                                        print(
+                                            "La opcion ingresada no esta dentro de las opciones anteriores."
+                                        )
                             case 6 : 
                                 match designCalculatesOfRegularSolids():
-                                    case 1 : print("Calculo 1")
+                                    case 1 : calculateVolumeRegularQuadrangularPyramid()
+                                    case 2 : calculateAreaRegularQuadrangularPyramid()
+                                    case 3 : calculateMassRegularQuadrangularPyramid()
+                                    case 4 : calculateDensityRegularQuadrangularPyramid()
+                                    case _:
+                                        print(
+                                            "La opcion ingresada no esta dentro de las opciones anteriores."
+                                        )
                             case 7 :
                                 match designCalculatesOfRegularSolids():
-                                    case 1 : print("Calculo 1")
+                                    case 1 : calculateVolumeRegularOctahedron()
+                                    case 2 : calculateAreaRegularOctahedron()
+                                    case 3 : calculateMassRegularOctahedron()
+                                    case 4 : calculateDensityRegularOctahedron()
+                                    case 4 : calculateDensityRegularQuadrangularPyramid()
+                                    case _:
+                                        print(
+                                            "La opcion ingresada no esta dentro de las opciones anteriores."
+                                        )
                             case 8 : break
                             case _:
                                 print(

@@ -1,5 +1,5 @@
 import json
-from math import pi 
+from math import pi
 
 def findAllIrregularSolids():
     try:
@@ -263,3 +263,45 @@ def calculateDensityOfMountain():
 
     result = m / (1/3) * pi* (r*r) * h
     print(f"La densidad total de la montaña es de {result}")
+
+def calculateVolumeOfSeaStar():
+    print("""
+    Recordemos que en una estrella de mar se debe pasar valores de paramatros para calcular su area, 
+          ejemplo: ("parametros":
+                            "r": 300 (radio de las esferas de la estrella de mar.), 
+                            "h": 200 (numero de esferas),
+                        )
+    """)
+    r = float(input("Ingresa el valor del parametro r: "))
+    h = float(input("Ingresa el valor del parametro h: "))
+
+    result = 4 * pi * h * (r*r)
+    print(f"El area total de la estrella de mar es de {result}")
+
+def calculateAreaOfSeaStar():
+    print("""
+    Recordemos que en una estrella de mar se debe pasar valores de paramatros para calcular su volumen, 
+          ejemplo: ("parametros":
+                            "r": 300 (radio de las esferas de la estrella de mar.), 
+                            "h": 200 (numero de esferas),
+                        )
+    """)
+    r = float(input("Ingresa el valor del parametro r: "))
+    h = float(input("Ingresa el valor del parametro h: "))
+
+    result = pi * (1/3) * h * (r*r*r)
+    print(f"El volumen total de la estrella de mar es de {result}")
+
+def calculateDensityOfSeaStar():
+    print("""
+    Recordemos que en una estrella de mar se debe pasar valores de paramatros para calcular su densidad, 
+          ejemplo: ("parametros":
+                            "r": 300 (masa de la estrella de mar.), 
+                            "h": 200 (volumen de la estrella de mar),
+                        )
+    """)
+    r = float(input("Ingresa el valor del parametro r: "))
+    h = float(input("Ingresa el valor del parametro h: "))
+
+    result =r / h
+    print(f"La densidad total de la estrella de mar es de {result}")
