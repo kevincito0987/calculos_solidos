@@ -1,5 +1,5 @@
 import json
-from math import sqrt, pi 
+from math import pi 
 
 def findAllIrregularSolids():
     try:
@@ -13,7 +13,7 @@ def findAllIrregularSolids():
 
 def calculateVolumeEllipsoidCloud():
     print("""
-    Recordemos que en una nube con forma Elipsoide se deve pasar valores de paramatros para calcular su vólumen, 
+    Recordemos que en una nube con forma Elipsoide se debe pasar valores de paramatros para calcular su vólumen, 
           ejemplo: ("parametros":
                             "a": 1000, 
                             "b": 500,  
@@ -29,7 +29,7 @@ def calculateVolumeEllipsoidCloud():
 
 def calculateVolumeSphereCloud():
     print("""
-    Recordemos que en una nube con forma de Esfera se deve pasar valores de paramatros para calcular su vólumen, 
+    Recordemos que en una nube con forma de Esfera se debe pasar valores de paramatros para calcular su vólumen, 
           ejemplo: ("parametros":
                             "r": 500
                         )
@@ -40,7 +40,7 @@ def calculateVolumeSphereCloud():
 
 def calculateVolumeCylinderCloud():
     print("""
-    Recordemos que en una nube con forma de Cilindro se deve pasar valores de paramatros para calcular su vólumen, 
+    Recordemos que en una nube con forma de Cilindro se debe pasar valores de paramatros para calcular su vólumen, 
           ejemplo: ("parametros":
                             "r": 200,
                             "h": 1000 
@@ -54,7 +54,7 @@ def calculateVolumeCylinderCloud():
 
 def calculateVolumePrismCloud():
     print("""
-    Recordemos que en una nube con forma de Prisma se deve pasar valores de paramatros para calcular su vólumen, 
+    Recordemos que en una nube con forma de Prisma se debe pasar valores de paramatros para calcular su vólumen, 
           ejemplo: ("parametros":
                             "Area_base": 50000,
                             "altura": 800 
@@ -68,7 +68,7 @@ def calculateVolumePrismCloud():
 
 def calculateVolumeLenticularCloud():
     print("""
-    Recordemos que en una nube con forma Lenticular se deve pasar valores de paramatros para calcular su masa, 
+    Recordemos que en una nube con forma Lenticular se debe pasar valores de paramatros para calcular su masa, 
           ejemplo: ("parametros":
                             "r": 300, 
                             "h": 200 
@@ -82,7 +82,7 @@ def calculateVolumeLenticularCloud():
 
 def calculateMassEllipsoidCloud():
     print("""
-    Recordemos que en una nube con forma Elipsoide se deve pasar valores de paramatros para calcular su masa, 
+    Recordemos que en una nube con forma Elipsoide se debe pasar valores de paramatros para calcular su masa, 
           ejemplo: ("parametros":
                             "a": 1000, 
                             "b": 500,  
@@ -98,7 +98,7 @@ def calculateMassEllipsoidCloud():
 
 def calculateMassSphereCloud():
     print("""
-    Recordemos que en una nube con forma de Esfera se deve pasar valores de paramatros para calcular su masa, 
+    Recordemos que en una nube con forma de Esfera se debe pasar valores de paramatros para calcular su masa, 
           ejemplo: ("parametros":
                             "r": 500
                         )
@@ -109,7 +109,7 @@ def calculateMassSphereCloud():
 
 def calculateMassCylinderCloud():
     print("""
-    Recordemos que en una nube con forma de Cilindro se deve pasar valores de paramatros para calcular su masa, 
+    Recordemos que en una nube con forma de Cilindro se debe pasar valores de paramatros para calcular su masa, 
           ejemplo: ("parametros":
                             "r": 200,
                             "h": 1000 
@@ -123,7 +123,7 @@ def calculateMassCylinderCloud():
 
 def calculateMassPrismCloud():
     print("""
-    Recordemos que en una nube con forma de Prisma se deve pasar valores de paramatros para calcular su masa, 
+    Recordemos que en una nube con forma de Prisma se debe pasar valores de paramatros para calcular su masa, 
           ejemplo: ("parametros":
                             "Area_base": 50000,
                             "altura": 800 
@@ -137,7 +137,7 @@ def calculateMassPrismCloud():
 
 def calculateMassLenticularCloud():
     print("""
-    Recordemos que en una nube con forma Lenticular se deve pasar valores de paramatros para calcular su masa, 
+    Recordemos que en una nube con forma Lenticular se debe pasar valores de paramatros para calcular su masa, 
           ejemplo: ("parametros":
                             "r": 300, 
                             "h": 200 
@@ -151,7 +151,7 @@ def calculateMassLenticularCloud():
 
 def calculateDensytyEllipsoidCloud():
     print("""
-    Recordemos que en una nube con forma Elipsoide se deve pasar valores de paramatros para calcular su densidad, 
+    Recordemos que en una nube con forma Elipsoide se debe pasar valores de paramatros para calcular su densidad, 
           ejemplo: ("parametros":
                             "a": 1000, 
                             "b": 500,  
@@ -167,7 +167,7 @@ def calculateDensytyEllipsoidCloud():
 
 def calculateDensitySphereCloud():
     print("""
-    Recordemos que en una nube con forma de Esfera se deve pasar valores de paramatros para calcular su densidad, 
+    Recordemos que en una nube con forma de Esfera se debe pasar valores de paramatros para calcular su densidad, 
           ejemplo: ("parametros":
                             "r": 500
                         )
@@ -178,7 +178,7 @@ def calculateDensitySphereCloud():
 
 def calculateDensityCylinderCloud():
     print("""
-    Recordemos que en una nube con forma de Cilindro se deve pasar valores de paramatros para calcular su densidad, 
+    Recordemos que en una nube con forma de Cilindro se debe pasar valores de paramatros para calcular su densidad, 
           ejemplo: ("parametros":
                             "r": 200,
                             "h": 1000 
@@ -192,7 +192,7 @@ def calculateDensityCylinderCloud():
 
 def calculateDensityPrismCloud():
     print("""
-    Recordemos que en una nube con forma de Prisma se deve pasar valores de paramatros para calcular su densidad, 
+    Recordemos que en una nube con forma de Prisma se debe pasar valores de paramatros para calcular su densidad, 
           ejemplo: ("parametros":
                             "Area_base": 50000,
                             "altura": 800 
@@ -206,7 +206,7 @@ def calculateDensityPrismCloud():
 
 def calculateDensityLenticularCloud():
     print("""
-    Recordemos que en una nube con forma Lenticular se deve pasar valores de paramatros para calcular su densidad, 
+    Recordemos que en una nube con forma Lenticular se debe pasar valores de paramatros para calcular su densidad, 
           ejemplo: ("parametros":
                             "r": 300, 
                             "h": 200 
@@ -217,3 +217,49 @@ def calculateDensityLenticularCloud():
 
     result =  0.5 * pi * (r*r) * h / pi * (r*r) * h
     print(f"La densidad total de la nube con forma de Elipsoide es de {result}")
+
+def calculateVolumeOfMountain():
+    print("""
+    Recordemos que en una montaña se debe pasar valores de paramatros para calcular su volumen, 
+          ejemplo: ("parametros":
+                            "r": 300 (radio), 
+                            "h": 200 (altura)
+                        )
+    """)
+    r = float(input("Ingresa el valor del parametro r: "))
+    h = float(input("Ingresa el valor del parametro h: "))
+
+    result =  (1/3) * pi * (r*r) * h
+    print(f"El volumen total de la montaña es de {result}")
+
+
+def calculateAreaOfMountain():
+    print("""
+    Recordemos que en una montaña se debe pasar valores de paramatros para calcular su area, 
+          ejemplo: ("parametros":
+                            "r": 300 (radio), 
+                            "h": 200 (altura)
+                        )
+    """)
+    r = float(input("Ingresa el valor del parametro r: "))
+    h = float(input("Ingresa el valor del parametro h: "))
+
+    result =  r * h
+    print(f"El area total de la montaña es de {result}")
+
+
+def calculateDensityOfMountain():
+    print("""
+    Recordemos que en una montaña se debe pasar valores de paramatros para calcular su densidad, 
+          ejemplo: ("parametros":
+                            "r": 300 (radio), 
+                            "h": 200 (altura),
+                            "m": 300 (masa)
+                        )
+    """)
+    r = float(input("Ingresa el valor del parametro r: "))
+    h = float(input("Ingresa el valor del parametro h: "))
+    m = float(input("Ingresa el valor del parametro m: "))
+
+    result = m / (1/3) * pi* (r*r) * h
+    print(f"La densidad total de la montaña es de {result}")

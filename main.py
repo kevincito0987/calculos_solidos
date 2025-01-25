@@ -1,6 +1,6 @@
-from design.irregular_solids import tableIrregularSolids, designIrregularSolidThingToDo, designCalculatesOfIrregularSolids, designIrregularSolidCloud
+from design.irregular_solids import tableIrregularSolids, designIrregularSolidThingToDo, designCalculatesOfIrregularSolids, designIrregularSolidCloud, designCalculatesOfIrregularSolidsMountainAndSeaStar
 from design.regular_solids import tableRegularSolids, designRegularSolidThingToDo, designCalculatesOfRegularSolids
-from logic.irregular_solids import calculateVolumeEllipsoidCloud, calculateVolumeSphereCloud, calculateVolumeCylinderCloud, calculateVolumePrismCloud, calculateVolumeLenticularCloud, calculateMassEllipsoidCloud, calculateMassSphereCloud, calculateMassCylinderCloud, calculateMassPrismCloud, calculateMassLenticularCloud, calculateDensytyEllipsoidCloud, calculateDensitySphereCloud, calculateDensityCylinderCloud, calculateDensityPrismCloud, calculateDensityLenticularCloud
+from logic.irregular_solids import calculateVolumeEllipsoidCloud, calculateVolumeSphereCloud, calculateVolumeCylinderCloud, calculateVolumePrismCloud, calculateVolumeLenticularCloud, calculateMassEllipsoidCloud, calculateMassSphereCloud, calculateMassCylinderCloud, calculateMassPrismCloud, calculateMassLenticularCloud, calculateDensytyEllipsoidCloud, calculateDensitySphereCloud, calculateDensityCylinderCloud, calculateDensityPrismCloud, calculateDensityLenticularCloud, calculateAreaOfMountain, calculateDensityOfMountain, calculateVolumeOfMountain
 
 while True:
     try:
@@ -66,11 +66,18 @@ while True:
                                                     )
 
                             case 2 : 
-                                match designCalculatesOfIrregularSolids():
+                                match designCalculatesOfIrregularSolidsMountainAndSeaStar():
                                     case 1 :print("Calculo 1")
                             case 3 : 
-                                match designCalculatesOfIrregularSolids():
-                                    case 1 :print("Calculo 1")
+                                match designCalculatesOfIrregularSolidsMountainAndSeaStar():
+                                    case 1 : calculateVolumeOfMountain()
+                                    case 2 : calculateAreaOfMountain()
+                                    case 3 : calculateDensityOfMountain()
+                                    case 4 : break
+                                    case _:
+                                            print(
+                                                        "La opcion ingresada no esta dentro de las opciones anteriores."
+                                                    )
                             case 4 : break
                             case _:
                                 print(

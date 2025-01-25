@@ -39,7 +39,7 @@ def designCalculatesOfIrregularSolids():
             3. Calculos Densidad
             4. Regresar al Menú Principal
             ===========================================
-            Selecciona una opción (1-8):
+            Selecciona una opción (1-4):
           """
     )
     opc = int(input())
@@ -58,6 +58,24 @@ def designIrregularSolidCloud():
             4. Esfera
             5. Cilindro
             6. Regresar al Menú Principal
+            ===========================================
+            Selecciona una opción (1-6):
+          """
+    )
+    opc = int(input())
+    return opc
+
+def designCalculatesOfIrregularSolidsMountainAndSeaStar():
+    print(
+        """
+            ==============================================
+               Calculos del Solido Irregular a Calcular
+            ==============================================
+            ¿Qué solido irregular deseas calcular?
+            1. Calcular Volumen
+            2. Calculos area
+            3. Calculos Densidad
+            4. Regresar al Menú Principal
             ===========================================
             Selecciona una opción (1-4):
           """
